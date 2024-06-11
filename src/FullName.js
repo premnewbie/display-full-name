@@ -24,7 +24,7 @@ const FullName = () => {
             <label>Last Name:</label>
             <input type='text'  onInput={(e)=>setLastName(e.target.value)} required/>
         </div>
-        <button onClick={(e)=>handleSetFull(e)}>Submit</button>
+        <button type='submit' onClick={(e)=>handleSetFull(e)}>Submit</button>
     </form>
     {fullName && <div>
         Full Name: {fullName}
