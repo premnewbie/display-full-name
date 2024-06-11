@@ -10,6 +10,8 @@ const FullName = () => {
         e.preventDefault();
         if(firstName!=='' && lastName!==''){
             setFullName(firstName+' '+lastName);
+        }else{
+            setFullName('');
         }
     }
 
